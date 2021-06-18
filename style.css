@@ -1,0 +1,241 @@
+/* global styles */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+body {
+  line-height: 1.7;
+  font-family: "Open Sans", sans-serif;
+  background: #f3f3f3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+:focus {
+  outline-width: 0;
+}
+
+button {
+  cursor: pointer;
+  padding: 1.5rem 2rem;
+  font-size: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  background: none;
+}
+
+button:hover {
+  background: pink;
+  color: white;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+
+/* --------------------------- */
+
+.title {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.title .pink {
+  color: pink;
+}
+
+.filter-btns {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.filter-search {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.filter-search .search {
+  background: pink;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.filter-search .search i {
+  font-size: 2rem;
+  color: white;
+}
+
+.filter-search .search-bar {
+  width: 45rem;
+  padding: 2rem;
+  border: none;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  font-size: 2rem;
+}
+
+/* --------------------------- */
+
+.items {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.items-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 6rem;
+  justify-items: center;
+  max-width: 110rem;
+  margin: auto;
+}
+
+.item-info {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.one {
+  background-image: url(/img/1.jpeg);
+  width: 30rem;
+  height: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.two {
+  background-image: url(/img/2.jpeg);
+  width: 30rem;
+  height: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.three {
+  background-image: url(/img/3.jpeg);
+  width: 30rem;
+  height: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.four {
+  background-image: url(/img/4.jpeg);
+  width: 30rem;
+  height: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.five {
+  background-image: url(/img/5.jpeg);
+  width: 30rem;
+  height: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.six {
+  background-image: url(/img/6.jpeg);
+  width: 30rem;
+  height: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.seven {
+  background-image: url(/img/7.jpeg);
+  width: 30rem;
+  height: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.eight {
+  background-image: url(/img/8.jpeg);
+  width: 30rem;
+  height: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nine {
+  background-image: url(/img/9.jpeg);
+  width: 30rem;
+  height: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ten {
+  background-image: url(/img/12.jpeg);
+  width: 30rem;
+  height: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.eleven {
+  background-image: url(/img/10.jpeg);
+  width: 30rem;
+  height: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.twelve {
+  background-image: url(/img/11.jpeg);
+  width: 30rem;
+  height: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* dynamic classes */
+
+.item.hide {
+  display: none !important;
+}
+
+.change {
+  background: pink;
+  color: white;
+  border: none;
+}
